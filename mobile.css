@@ -46,6 +46,12 @@ nav .container {
   width: 90%;
   margin-top: 1rem;
 }
+.bg-curve-desktop {
+  background-image: url("./images/bg-curve-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60px;
+}
 .text-wrap,
 .img-wrap,
 .nl-text,
