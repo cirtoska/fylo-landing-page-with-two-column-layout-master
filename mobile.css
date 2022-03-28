@@ -1,0 +1,114 @@
+body {
+  line-height: 1.4;
+}
+h2 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+h3 {
+  font-size: 1.3rem;
+}
+nav ul li a {
+  font-size: 0.8rem;
+  padding: 3px;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+#logo img {
+  width: 90px;
+}
+#showcase,
+#intro .container,
+.newsletter .container {
+  flex-wrap: wrap;
+  justify-content: center;
+
+  align-content: center;
+}
+.subscribe form input[type="email"] {
+  width: 90%;
+}
+.nl-form form input[type="email"] {
+  width: 90%;
+  margin-top: 2rem;
+}
+.subscribe form input[type="submit"] {
+  width: 90%;
+  margin-left: 0;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.nl-form form input[type="submit"] {
+  width: 90%;
+  margin-top: 1rem;
+}
+.text-wrap,
+.img-wrap,
+.nl-text,
+.nl-form,
+.subscribe,
+.showcaseImg {
+  flex-basis: 100%;
+  align-items: center;
+  text-align: center;
+}
+.showcaseImg,
+.img-wrap {
+  order: 1;
+}
+.img-wrap {
+  max-width: 100%;
+}
+.subscribe,
+.text-wrap {
+  order: 2;
+}
+.text-wrap p {
+  color: var(--secondary-color-);
+  text-align: left;
+  font-size: 1rem;
+}
+.card {
+  max-width: 100%;
+  margin: 2rem auto;
+  text-align: left;
+}
+.card p {
+  color: var(--primary-color-);
+}
+.card p,
+.card .name {
+  font-size: 0.8rem;
+}
+
+.card .title {
+  font-size: 0.7rem;
+}
+.card img {
+  width: 40px;
+}
+.nl-text p,
+.subscribe p,
+.text-wrap p {
+  font-size: 0.9rem;
+}
+footer .container {
+  flex-wrap: wrap;
+}
+.contact,
+.links-1,
+.links-2,
+.social {
+  flex-basis: 100%;
+}
+.links-1,
+.links-2 {
+  margin-bottom: 2rem;
+}
+.social {
+  text-align: center;
+}
